@@ -5,7 +5,9 @@ export default function Display() {
   const { r, g, b } = useParams();
   return (
     <div style={{ backgroundColor: `rgb(${r}, ${g}, ${b}` }}>
-      <p>Display</p>
+      <p>
+        rgb({r}, {g}, {b})
+      </p>
     </div>
   );
 }

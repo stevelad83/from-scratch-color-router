@@ -8,13 +8,13 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Red</NavLink>
+            <NavLink to="/255/0/0">Red</NavLink>
           </li>
           <li>
-            <NavLink to="/">Green</NavLink>
+            <NavLink to="/102/255/178">Green</NavLink>
           </li>
           <li>
-            <NavLink to="/">Blue</NavLink>
+            <NavLink to="/51/51/255">Blue</NavLink>
           </li>
         </ul>
       </nav>

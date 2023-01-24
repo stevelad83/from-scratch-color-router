@@ -5,7 +5,6 @@ import Display from '../Display/Display.js';
 export default function Main() {
   return (
     <>
-      <Nav />
       <Display />
     </>
   );

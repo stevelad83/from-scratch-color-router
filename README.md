@@ -1,3 +1,15 @@
+#wireframe ![](/wireframe.png)
+
+#Components
+
+App.js
+NavLink
+Routes /red
+/green
+/blue
+Display.js
+-takes props from NavLink || url params
+
 Description
 For this deliverable, you should create a dynamic color generator using React Router routes and parameters.
 

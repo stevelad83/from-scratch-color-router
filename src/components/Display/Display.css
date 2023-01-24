@@ -1,0 +1,12 @@
+.display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+p {
+  font-size: xx-large;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}

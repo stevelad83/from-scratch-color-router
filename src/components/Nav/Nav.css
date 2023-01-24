@@ -1,0 +1,21 @@
+.nav-container {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-left: 26px;
+  margin-right: 26px;
+  font-size: larger;
+  list-style: none;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}

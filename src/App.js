@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Main from './components/Main/Main.js';
 
 import './App.css';
 
@@ -7,9 +8,9 @@ function App() {
   return (
     <>
       <div className="App">
-        <NavLink to="/red">Red</NavLink>
-        <NavLink to="/green">Green</NavLink>
-        <NavLink to="/blue">Blue</NavLink>
+        <Switch>
+          <Route path="/" component={Main} />
+        </Switch>
       </div>
     </>
   );
